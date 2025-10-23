@@ -1,0 +1,19 @@
+﻿// -----------------------------------------------------------------------------------------------------------------
+// <copyright file="DwmapiWrapper.cs" company="dwndland">
+//     Copyright (c) David Wendland. All rights reserved.
+// </copyright>
+// -----------------------------------------------------------------------------------------------------------------
+
+
+
+// ReSharper disable once CheckNamespace
+
+namespace OneCore.Net.WinAPI;
+
+public class DwmapiWrapper : IDwmapi
+{
+    public int DwmSetWindowAttribute(IntPtr hwnd, int attr, ref int attrValue, int attrSize)
+    {
+        return Dwmapi.DwmSetWindowAttribute(hwnd, attr, ref attrValue, attrSize);
+    }
+}
