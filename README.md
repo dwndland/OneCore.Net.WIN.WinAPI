@@ -1,9 +1,9 @@
-![OneCore](https://raw.githubusercontent.com/dwndland/OneCore.Net.WinAPI/master/Icon.png)
+![OneCore](https://raw.githubusercontent.com/dwndland/OneCore.Net.WIN.WinAPI/refs/heads/master/Icon.png)
 
-# OneCore.Net.WinAPI Library
+# OneCore.Net.WIN.WinAPI Library
 
 ## Overview
-OneCore.Net.WinAPI is an internal library that provides low-level WinAPI bindings used by other OneCore libraries; it is not intended for standalone use and remains incomplete by design.
+OneCore.Net.WIN.WinAPI is an internal library that provides low-level WinAPI bindings used by other OneCore libraries; it is not intended for standalone use and remains incomplete by design.
 
 ## Features
 - **Dwmapi:** Access to the WinAPI methods within the "dwmapi.dll"
@@ -16,9 +16,9 @@ OneCore.Net.WinAPI is an internal library that provides low-level WinAPI binding
 ## Getting Started
 
 1. **Installation:**
-    - Install the OneCore.Net.WinAPI library via NuGet Package Manager:
+    - Install the OneCore.Net.WIN.WinAPI library via NuGet Package Manager:
     ```bash
-    dotnet add package OneCore.Net.WinAPI
+    dotnet add package OneCore.Net.WIN.WinAPI
     ```
 
 2. **Usage:**
@@ -102,8 +102,8 @@ OneCore.Net.WinAPI is an internal library that provides low-level WinAPI binding
     ```
 
 ## Links
-* [NuGet](https://www.nuget.org/packages/OneCore.Net.WinAPI)
-* [GitHub](https://github.com/dwndland/OneCore.Net.WinAPI)
+* [NuGet](https://www.nuget.org/packages/OneCore.Net.WIN.WinAPI)
+* [GitHub](https://github.com/dwndland/OneCore.Net.WIN.WinAPI)
 
 ## License
 Copyright (c) David Wendland. All rights reserved.

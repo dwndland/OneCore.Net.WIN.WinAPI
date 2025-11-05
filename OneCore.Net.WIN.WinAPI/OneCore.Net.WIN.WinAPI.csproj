@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Version>1.0.0</Version>
+    <Description>OneCore.Net.WIN.WinAPI is an internal library that provides low-level WinAPI bindings used by other OneCore libraries; it is not intended for standalone use and remains incomplete by design.</Description>
+    <RepositoryUrl>https://github.com/dwndland/OneCore.Net.WIN.WinAPI</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/dwndland/OneCore.Net.WIN.WinAPI</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
