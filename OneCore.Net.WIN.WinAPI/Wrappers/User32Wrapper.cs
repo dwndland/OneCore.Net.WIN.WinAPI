@@ -91,4 +91,9 @@ public class User32Wrapper : IUser32
     {
         return User32.MapVirtualKey(uCode, uMapType);
     }
+
+    public bool GetCursorPos(out POINT lpPoint)
+    {
+        return User32.GetCursorPos(out lpPoint);
+    }
 }

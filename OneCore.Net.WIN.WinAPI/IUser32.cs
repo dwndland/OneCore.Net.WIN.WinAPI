@@ -42,4 +42,6 @@ public interface IUser32
     bool GetKeyboardState(byte[] lpKeyState);
 
     uint MapVirtualKey(uint uCode, MAPVK uMapType);
+
+    bool GetCursorPos(out POINT lpPoint);
 }

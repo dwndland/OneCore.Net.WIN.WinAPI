@@ -61,4 +61,7 @@ public static class User32
 
     [DllImport("user32.dll")]
     public static extern uint MapVirtualKey(uint uCode, MAPVK uMapType);
+
+    [DllImport("user32.dll")]
+    public static extern bool GetCursorPos(out POINT lpPoint);
 }

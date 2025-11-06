@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 ## [Unreleased]
 
+## [1.0.1] - 2025-11-06
+### Added
+- Addd User32.GetCursorPos.
+
 ## [1.0.0] - 2025-11-05
 ### Added
 - Initial public release of **OneCore.Net.WIN.WinAPI** — the Windows-specific utility library within the OneCore.Net ecosystem.
